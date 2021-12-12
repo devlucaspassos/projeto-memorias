@@ -1,0 +1,121 @@
+@chatset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@font-face {
+    font-family: 'Haikus Script';
+    src: url(../Fontes/HaikusScript.ttf);
+}
+@font-face {
+    font-family: 'PoemLetters';
+    src: url(../Fontes/PoemLettersSerifRegular.ttf);
+}
+:root {
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Passion One', cursive;
+    --font3: 'Sriracha', cursive;
+    --font4: 'Haikus Script', cursive;
+    --font5: 'PoemLetters', cursive;
+
+    --cor1: #1B1B1E;
+}
+body {
+    font-family: var(--font1);
+}
+header {
+    background-image: url(../imagens/header.jpg);
+    background-position: right bottom;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.253);
+}
+header > h1 {
+    font-family: var(--font5);
+    font-variant: small-caps;
+    padding-top: 50px;
+    font-size: 15vw;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.267);
+}
+header > p {
+    padding-bottom: 50px;
+    font-family: var(--font4);
+    font-size: 5.5vw;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 40px;
+}
+section > p {
+    line-height: 2em;
+    font-family: var(--font4);
+    font-size: 5.8vw;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.322);
+}
+section.normal {
+    background-color: var(--cor1);
+    color: #fff;
+}
+section.imagem {
+    background-color: rgb(134, 134, 134);
+    color: #fff;
+    box-shadow: inset 8px 8px 8px 0px rgba(0, 0, 0, 0.418);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.582);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 10px;
+}
+section#img1 {
+    background-image: url(../imagens/imagem1.jpg);
+    background-position: left center;
+    
+}
+section#img2 {
+    background-image: url(../imagens/imagem2.jpg);
+    background-position: center center;
+} 
+section#img3 {
+    background-image: url(../imagens/imagem3.jpg);
+    background-position: bottom center;
+}
+section#img4 {
+    background-image: url(../imagens/imagem4.jpg);
+    background-position: left center;
+}
+aside.lucia-silva {
+    text-align: center;
+    padding-top: 35px;
+}
+aside.lucia-silva > p > a {
+    text-decoration: none ;
+    color: #fff;
+    font-weight: bold;
+}
+aside.lucia-silva > p > a:hover {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    min-height: 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1em;
+}
+footer > p > a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #fff;
+}
+footer > p > a:hover {
+    text-decoration: underline;
+}
