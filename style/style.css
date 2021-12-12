@@ -64,7 +64,6 @@ section.imagem {
     background-color: rgb(134, 134, 134);
     color: #fff;
     box-shadow: inset 8px 8px 8px 0px rgba(0, 0, 0, 0.418);
-    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -105,7 +104,7 @@ aside.lucia-silva > p > a:hover {
 }
 footer {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     min-height: 20px;
     background-color: #000;
     color: #fff;
